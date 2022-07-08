@@ -1,1 +1,169 @@
-{"user":[{"_id":1,"_username":"erick","_email":"erick@gmail.com","_password":"$2b$10$FDASauLx8QgEQqpx2ldgnehJCGuRIq1AH7X.wiR5lo1fTn2JIRFGy"},{"_id":2,"_username":"Pedro ","_email":"pedro@gmail.com","_password":"$2b$10$J1Q2GmT0uAO7TOrn0t93gO5YCplvsLFoqUsz0lrxmxgfQ/RRxCge2"},{"_id":3,"_username":"Juan","_email":"juan202@gmail.com","_password":"$2b$10$zQyx2GR5dTXWlJqp.fldCuJK8Z0LAPh5v.3DKzto97rdIqiBPJ5s2"},{"_id":4,"_username":"carlos","_email":"carlos202@gmail.com","_password":"$2b$10$0wB6YJ3xoHdJVO5dgdhKTOGP3LB7dnwwqXMiJOMHr5d/BwAdjl746"},{"_id":5,"_username":"Mario","_email":"Mario202@gmail.com","_password":"$2b$10$ceIDV5mKxExqYaruoOoSPOC0wLg/pYxNskF2Q.gF1vVyo9./VzHIq"}],"song":[{"_id":1,"_title":"Hongos","_uri":"https://www.youtube.com/results?search_query=arjona","_duration":"3.59 minutes","_image":"no hay","_idArtist":"1"},{"_id":2,"_title":"Historia de taxi","_uri":"https://www.youtube.com/watch?v=-apU2sviHCM","_duration":"6.41 minutes","_image":"no hay","_idArtist":"1"}],"artist":[{"_id":1,"_fisrtName":"Ricardo","_lastName":"arjona","_avatar":"quetzal"},{"_id":2,"_fisrtName":"Bad","_lastName":"Bunny","_avatar":"conejo"}],"playlist":[]}
+{
+  "user": [
+    {
+      "_id": 1,
+      "_username": "erick",
+      "_email": "erick@gmail.com",
+      "_password": "$2b$10$FDASauLx8QgEQqpx2ldgnehJCGuRIq1AH7X.wiR5lo1fTn2JIRFGy"
+    },
+    {
+      "_id": 2,
+      "_username": "Pedro ",
+      "_email": "pedro@gmail.com",
+      "_password": "$2b$10$J1Q2GmT0uAO7TOrn0t93gO5YCplvsLFoqUsz0lrxmxgfQ/RRxCge2"
+    },
+    {
+      "_id": 3,
+      "_username": "Juan",
+      "_email": "juan202@gmail.com",
+      "_password": "$2b$10$zQyx2GR5dTXWlJqp.fldCuJK8Z0LAPh5v.3DKzto97rdIqiBPJ5s2"
+    },
+    {
+      "_id": 4,
+      "_username": "carlos",
+      "_email": "carlos202@gmail.com",
+      "_password": "$2b$10$0wB6YJ3xoHdJVO5dgdhKTOGP3LB7dnwwqXMiJOMHr5d/BwAdjl746"
+    },
+    {
+      "_id": 5,
+      "_username": "Mario",
+      "_email": "Mario202@gmail.com",
+      "_password": "$2b$10$ceIDV5mKxExqYaruoOoSPOC0wLg/pYxNskF2Q.gF1vVyo9./VzHIq"
+    },
+    {
+      "_id": 6,
+      "_username": "erik",
+      "_email": "erick@gmail.com",
+      "_password": "$2b$10$6G2XonU67JaL/CqvmzVc0uiAfnkOIG32Odk8yOzaeD2FdRy5jksRO"
+    },
+    {
+      "_id": 7,
+      "_username": "Anibal",
+      "_email": "anibal12@gmail.com",
+      "_password": "$2b$10$.PZ0TtpnuMGxsps1XRVB6e7iiAGJHiy.oSOVWe52VB84c.csXGBj2"
+    },
+    {
+      "_id": 8,
+      "_username": "Izabel12",
+      "_email": "izabel@gmail.com",
+      "_password": "$2b$10$c.5sV0b.f1W7aiaU7rUMCuO3vE/ty/EbS6MGWGkXFSIA0vdtubA16"
+    },
+    {
+      "_id": 9,
+      "_username": "Izabel12",
+      "_email": "izabel@gmail.com",
+      "_password": "$2b$10$qwNz4oAHXcF1aVzCSXqD0ucL8Mjmy4zFRZVWW9vzAEN083yihStJS"
+    },
+    {
+      "_id": 10,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$PtgCcdUCgbqqZTr1VAHhw.cglr86OQmV1fjda0mPV0gaZg5UW.fkW"
+    },
+    {
+      "_id": 11,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$exmaEnl58GBy8Ani4FsShOxWPgIjmCSyIGZ5pfkrlStugiLvkBmBG"
+    },
+    {
+      "_id": 12,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$dAlZvD0KsGY0CsLMtP.0wegEHPnvaSrLmyinuv5aNupVN9eTDWtlu"
+    },
+    {
+      "_id": 13,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$/QxY1w0Xv0oWYRbLe/YPiOahqGIeZvYRxT2pOUKqkWEqXsqHOSsz6"
+    },
+    {
+      "_id": 14,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$70HEuEuFQ1vBxgedrifhGOYfos/NlRd2X01bW2ggCcKY2wPejUEb6"
+    },
+    {
+      "_id": 15,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$ig2q8bkBHtnjSOpkQf0HleNwN.Q3BuogS9UcLkyS9kiPym/Hwm.7m"
+    },
+    {
+      "_id": 16,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$lwilU4hTmFCakmhpA4vFg.DFopF7r76WdoZG/6KbqdaE1jwPK8TSi"
+    },
+    {
+      "_id": 17,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$F.VUF7leFojZcqYsCkkcJufpIAIbjubdYL97.wWnAQ9z7rhgPPVgq"
+    },
+    {
+      "_id": 18,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$q9Un0T1gAYmGz.4rSkdur.yr/3xCw36a8.4Te9VlL0FjTnwjecuhC"
+    },
+    {
+      "_id": 19,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$K4pE/AeoSibVCnJl3ziIE.TReU2ZyP5yYPzNCO4G4X1qKwQr3q2fS"
+    },
+    {
+      "_id": 20,
+      "_username": "string",
+      "_email": "string@gmail.com",
+      "_password": "$2b$10$AfB8aKSaEdOnlXxcJYpdzuZ6jJQJvtK8PWteaXCXmcwD7EoeRrc.m"
+    },
+    {
+      "_id": 21,
+      "_username": "Mario",
+      "_email": "Mario202@gmail.com",
+      "_password": "$2b$10$AJK3wOH2bavJbZMGyaaqZOEB9Y27usCZ.ovUjI4qvzEqhcwCJaviy"
+    },
+    {
+      "_id": 22,
+      "_username": "Mario",
+      "_email": "Mario202@gmail.com",
+      "_password": "$2b$10$TPtbva857nefAp..Ez1ryuW2nC9NlaJiL2XbTwh4fo0wpJYysZyU2"
+    }
+  ],
+  "song": [
+    {
+      "_id": 1,
+      "_title": "Hongos",
+      "_uri": "https://www.youtube.com/results?search_query=arjona",
+      "_duration": "3.59 minutes",
+      "_image": "no hay",
+      "_idArtist": "1"
+    },
+    {
+      "_id": 2,
+      "_title": "Historia de taxi",
+      "_uri": "https://www.youtube.com/watch?v=-apU2sviHCM",
+      "_duration": "6.41 minutes",
+      "_image": "no hay",
+      "_idArtist": "1"
+    }
+  ],
+  "artist": [
+    {
+      "_id": 1,
+      "_fisrtName": "Ricardo",
+      "_lastName": "arjona",
+      "_avatar": "quetzal"
+    },
+    {
+      "_id": 2,
+      "_fisrtName": "Bad",
+      "_lastName": "Bunny",
+      "_avatar": "conejo"
+    }
+  ],
+  "playlist": []
+}

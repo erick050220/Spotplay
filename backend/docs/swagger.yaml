@@ -67,6 +67,7 @@ paths:
         content:
           application/json:
             schema:
+              type: object
               $ref: '#/components/schemas/User'
           application/xml:
             schema:
@@ -78,18 +79,62 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/User'
+                  $ref: '#/components/schemas/[User]'
         400:
           description: bad request
           content: {}
         404:
           description: not found
           content: {}
-   /user/users:
+  /user/users:
     get:
       tags:
       - User
-      summary: obtener usuarios
-      operantionId: createUser
+      summary: return a list of User
+      responses:
+        200:
+          description: all user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/[User]'
+  /user/update:
+    put:
+      tags:
+      - User
+      summary: actualizar usuario
+      operantionId: actualizarUsuario
       description: Se creara un usuario para  utilizarlo en la apliacion.
-    x-codegen-request-body-name: body
+      requestBody:
+        description: ingrese los datos del usuario a crear.
+        content:
+          application/json:
+            schema:
+              type: object
+              $ref: '#/components/schemas/User'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/User'
+        required: true
+      responses:
+        200:
+          description: registro exitoso!
+          content:
+            application/json:
+              schema:
+                  $ref: '#/components/schemas/[User]'
+        400:
+          description: bad request
+          content: {}
+        404:
+          description: not found
+          content: {}
+  /user/:{}:
+    delete:
+      tags:
+      - User
+      summary: actualizar usuario
+      operantionId: actualizarUsuario
+      description: Se creara un usuario para  utilizarlo en la apliacion.
+    
+  x-codegen-request-body-name: body

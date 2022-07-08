@@ -25,12 +25,13 @@ export default class UserRouter {
     // this._router.put('/', this.handlePutSong.bind(this))
   }
 
-  handleSingUp (req, res) {
-    const result = this._ctrl.createNewUser(req.body)
-    if (result instanceof Error) {
-      this._response.error(req, res, result, 201)
+  async handleSingUp (req, res) {
+    try {
+      const result = await this._ctrl.createNewUser(req.body)
+      this._response.success(req, res, result, this._httpCode.CREATED)
+    } catch (error) {
+      this._response.error(req, res, error, this._httpCode.BAD_REQUEST)
     }
-    this._response.success(req, res, result, this._httpCode.ok)
   }
 
   handleGetUser (req, res) {
@@ -38,12 +39,13 @@ export default class UserRouter {
     this._response.success(req, res, result, this._httpCode.ok)
   }
 
-  handleDeleteUser (req, res) {
-    // console.log(req)
-    const id = req.params
-    const result = this._ctrl.deleteUser(id)
-    this._response.success(req, res, result, this._httpCode.ok)
-    // res.send('soy el manejador de la ruta delete/song')
+  async handleDeleteUser (req, res) {
+    try {
+      const result = await this._ctrl.deleteUser(req.params.id)
+      this._response.success(req, res, result, this._httpCode.ok)
+    } catch (error) {
+      this._response.error(req, res, error, this._httpCode.internal_server_error)
+    }
   }
 
   handlePutSong (req, res) {

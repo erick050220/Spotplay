@@ -30,16 +30,40 @@ class UserController {
   // return response
   }
 
-  updateUser (user) {
-    console.log(user)
-    return 'updated song'
+  async updateUser (id, data) {
+    try {
+      const response = await this._service.update(this._table.user, id, data)
+      return response
+    } catch (error) {
+      return new Error('Error al actualizar la cancion')
+    }
   }
 
-  deleteUser (user) {
-    const newUser = this._service.all()
-    const respons = this._entity(delete user.id)
-    const response = this._service.save('user', respons)
-    return response
+  async deleteUser (id) {
+    try {
+      const response = await this._service.delete(this._table.User, id)
+      return response
+    } catch (error) {
+      return new Error('Error al eliminar la cancion')
+    }
+  }
+
+  async createNewArtist (artist) {
+    try {
+      const response = await this._service.save(this._table.artist, artist)
+      return response
+    } catch (error) {
+      return new Error('Error al crear el artista')
+    }
+  }
+
+  async createNewAlbum (album) {
+    try {
+      const response = await this._service.save(this._table.album, album)
+      return response
+    } catch (error) {
+      return new Error('Error al crear el album')
+    }
   }
 }
 export default UserController
